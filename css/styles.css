@@ -63,6 +63,10 @@ a {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-list {
   color: #434455;
   font-size: 16px;
@@ -84,15 +88,17 @@ a {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .hero-button {
   /* box */
   background: #4d5ae5;
+  cursor: pointer;
   /* text */
   color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -114,15 +120,28 @@ a {
   letter-spacing: 0.4px;
 }
 
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section {
+  background-color: #f4f4fd;
+}
+
 .section-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .team-member {
