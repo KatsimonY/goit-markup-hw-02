@@ -169,6 +169,7 @@ a {
   /* box */
   border: 1px solid #e7e9fc;
   background: #f4f4fd;
+  cursor: pointer;
   /* text */
   color: #4d5ae5;
   font-family: "Roboto", sans-serif;
